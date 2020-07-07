@@ -14,7 +14,6 @@ def load_library(file_path)
     end
     # emotion.each do |english_sym, japanese_sym|
 binding.pry
-    end
   end
 end
 
