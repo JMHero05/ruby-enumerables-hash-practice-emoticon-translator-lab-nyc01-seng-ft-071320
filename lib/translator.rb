@@ -12,9 +12,8 @@ def load_library(file_path)
       new_hash[emotion][] = {}
     end
   end
-
   emoticons.each do |key, value|
-binding.pry
+    binding.pry
   end
 end
 
