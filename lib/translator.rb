@@ -11,12 +11,11 @@ def load_library(file_path)
     if !new_hash[emotion]
       new_hash[emotion][] = {}
     end
-
+  end
   emoticons.each do |key, value|
 
   end
 binding.pry
-  end
 end
 
 def get_japanese_emoticon
