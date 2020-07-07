@@ -10,8 +10,8 @@ def load_library(file_path)
   emoticons.each_with_object({}) do |(emotion, symbol), new_hash|
     # binding.pry
     if !new_hash{emotion}
-      new_hash{emotion} = {}
       binding.pry
+      new_hash{emotion} = {}
     end
     # emotion.each do |english_sym, japanese_sym|
 
