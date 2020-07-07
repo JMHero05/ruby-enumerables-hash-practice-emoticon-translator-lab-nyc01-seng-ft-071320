@@ -6,15 +6,15 @@ file_path = YAML.load_file('./lib/emoticons.yml')
 
 def load_library(file_path)
   emoticons = YAML.load_file(file_path)
-  
+
   emoticons.each_with_object({}) do |(emotion, symbol), new_hash|
     if !new_hash[emotion]
       new_hash[emotion][] = {}
     end
   end
-  binding.pry
+binding.pry
   emoticons.each do |key, value|
-    
+
   end
 end
 
