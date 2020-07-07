@@ -16,9 +16,8 @@ def load_library(file_path)
   emoticons.each do |key, value|
     
   end
-binding.pry
 end
-
+binding.pry
 def get_japanese_emoticon
   # code goes here
 end
