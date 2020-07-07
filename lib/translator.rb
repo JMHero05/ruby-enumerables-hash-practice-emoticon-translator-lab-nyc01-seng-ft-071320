@@ -28,8 +28,8 @@ def get_japanese_emoticon(file_path, emoticon)
     else
       "Sorry, that emoticon was not found"
     end
-    binding.pry
   end
+  binding.pry
 end
 
 def get_english_meaning(file_path, emoticon)
@@ -37,7 +37,7 @@ def get_english_meaning(file_path, emoticon)
 
   # library.each do |key, value|
   #   if key[:]
-  #
+  # 
   #   end
   # end
 end
