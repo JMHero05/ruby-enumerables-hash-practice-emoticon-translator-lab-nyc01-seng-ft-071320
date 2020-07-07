@@ -35,9 +35,9 @@ end
 def get_english_meaning(file_path, emoticon)
   library = load_library(file_path)
 
-  library.each do |key, value|
-    if key[:]
-
-    end
+  # library.each do |key, value|
+  #   if key[:]
+  # 
+  #   end
   end
 end
