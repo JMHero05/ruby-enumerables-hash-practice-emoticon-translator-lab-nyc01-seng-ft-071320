@@ -11,6 +11,7 @@ def load_library(file_path)
     # binding.pry
     if !new_hash{emotion}
       new_hash{emotion} = {}
+      binding.pry
     end
     # emotion.each do |english_sym, japanese_sym|
 
