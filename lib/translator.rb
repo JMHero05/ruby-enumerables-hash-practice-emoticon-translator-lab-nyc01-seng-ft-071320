@@ -25,7 +25,7 @@ def get_japanese_emoticon(file_path, emoticon)
 
   library.each do |key|
     if library[key] == emoticon
-      result = library[key][:japanese]
+      result = library[key]
     end
     # binding.pry
   end
