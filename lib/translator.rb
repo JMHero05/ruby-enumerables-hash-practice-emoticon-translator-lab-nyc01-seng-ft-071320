@@ -26,9 +26,9 @@ def get_japanese_emoticon(file_path, emoticon)
     if library[key][:english] == emoticon
       library[key][:japanese]
     end
-    binding.pry
+    # binding.pry
   end
-  binding.pry
+  # binding.pry
 end
 
 # binding.pry
