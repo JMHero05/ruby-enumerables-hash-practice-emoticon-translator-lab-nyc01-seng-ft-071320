@@ -9,8 +9,9 @@ def load_library(file_path)
 # binding.pry
   emoticons.each_with_object({}) do |(emotion, symbol), new_hash|
     emotion.each do |english_sym, japanese_sym|
-      binding.pry
     end
+    binding.pry
+    
   end
 end
 
