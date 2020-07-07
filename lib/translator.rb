@@ -13,7 +13,7 @@ def load_library(file_path)
       new_hash{emotion} = {}
     end
     # emotion.each do |english_sym, japanese_sym|
-      
+
     end
   end
 end
