@@ -7,7 +7,9 @@ file_path = YAML.load_file('./lib/emoticons.yml')
 def load_library(file_path)
   emoticons = YAML.load_file(file_path)
 binding.pry
-  
+  new_hash = {
+    
+  }
 end
 
 def get_japanese_emoticon
