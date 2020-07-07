@@ -30,6 +30,6 @@ def get_english_meaning(file_path, emoticon)
     library[key][:japanese] == emoticon
     binding.pry
   end
-  binding.pry
+  # binding.pry
 end
 # binding.pry
