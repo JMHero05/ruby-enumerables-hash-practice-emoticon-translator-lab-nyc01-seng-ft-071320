@@ -13,7 +13,7 @@ def load_library(file_path)
     end
 
   emoticons.each do |key, value|
-    
+
   end
 binding.pry
   end
@@ -28,10 +28,10 @@ def get_english_meaning
 end
 
 
-emotion.each do |english_sym, japanese_sym|
-  if !new_hash[emotion]
-    new_hash[emotion] = {}
-  end
-  if new_hash[emotion]
-    
-  end
+# emotion.each do |english_sym, japanese_sym|
+#   if !new_hash[emotion]
+#     new_hash[emotion] = {}
+#   end
+#   if new_hash[emotion]
+#
+#   end
