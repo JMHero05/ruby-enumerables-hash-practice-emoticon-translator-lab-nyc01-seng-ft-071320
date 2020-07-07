@@ -23,8 +23,8 @@ def get_japanese_emoticon(file_path, emoticon)
   library = load_library(file_path)
 
   library.find do |key, value|
-    if [key][value] == emoticon
-      [key][value]
+    if library[key][value] == emoticon
+      library[key][value]
     else
       "Sorry, that emoticon was not found"
     end
