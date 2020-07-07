@@ -7,9 +7,11 @@ file_path = YAML.load_file('./lib/emoticons.yml')
 def load_library(file_path)
   emoticons = YAML.load_file(file_path)
 binding.pry
-  new_hash = {
-    
-  }
+  emoticons.each_with_object({}) do |(emotion, symbol), new_hash|
+    emotion.each do |english_sym, japanese_sym|
+      binding.pry
+    end
+  end
 end
 
 def get_japanese_emoticon
