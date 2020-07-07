@@ -42,7 +42,7 @@ def get_english_meaning(file_path, emoticon)
     if library[key][:japanese] == emoticon
       result = library[key]
     end
-    binding.pry
+    # binding.pry
   end
   result
 end
