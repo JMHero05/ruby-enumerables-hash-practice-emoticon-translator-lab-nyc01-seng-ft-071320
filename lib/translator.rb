@@ -7,18 +7,6 @@ file_path = YAML.load_file('./lib/emoticons.yml')
 def load_library(file_path)
   emoticons = YAML.load_file(file_path)
 
-  emoticons.each_with_object({}) do |(emotion, symbol), new_hash|
-    if !new_hash[emotion]
-      new_hash[emotion][] = {}
-    end
-  end
-
-  new_hash
-
-  emoticons.each do |key, value|
-    # new_hash
-  end
-end
 binding.pry
 def get_japanese_emoticon
   # code goes here
