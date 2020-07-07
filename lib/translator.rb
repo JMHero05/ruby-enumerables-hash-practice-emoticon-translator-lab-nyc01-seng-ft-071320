@@ -13,6 +13,7 @@ def load_library(file_path)
     new_hash[key] = {}
     new_hash[key][:english] = value[0]
     new_hash[key][:japanese] = value[1]
+    # binding.pry
   end
 # binding.pry
 end
@@ -24,12 +25,3 @@ end
 def get_english_meaning
   # code goes here
 end
-
-
-# emotion.each do |english_sym, japanese_sym|
-#   if !new_hash[emotion]
-#     new_hash[emotion] = {}
-#   end
-#   if new_hash[emotion]
-#
-#   end
